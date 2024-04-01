@@ -1,0 +1,1 @@
+export {useAmphureOptions,useDistrictOptions,useProvinceOptions} from './useLocation'

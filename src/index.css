@@ -1,0 +1,94 @@
+body {
+  margin: 0;
+  padding: 0;
+  /* overflow-y: scroll; */
+}
+
+body::-webkit-scrollbar {
+  width: 8px;
+}
+
+/* Track */
+body::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+/* Handle */
+body::-webkit-scrollbar-thumb {
+  background: #888;
+}
+
+/* Handle on hover */
+body::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
+.ant-table-cell span mark {
+  background-color: #dddafc!important;
+  border-radius: 1.5px;
+}
+
+.ant-card-head-wrapper {
+  margin-bottom: -24px;
+}
+
+
+.ant-table-tbody .ant-table-cell {
+  padding: 4px 8px!important;
+}
+
+.ant-notification-notice-message {
+  font-size: 1.1rem!important;
+}
+
+ul.ant-picker-time-panel-column,
+li .ant-picker-time-panel-cell-inner{
+  width: 75px!important;
+}
+
+.avatar-uploader .ant-upload {
+  width: 150px!important;
+  height: 150px!important;
+  overflow: hidden;
+}
+
+.card-form-leave .ant-card-body {
+  padding-top: 10px;
+  padding-bottom: 0;
+}
+
+.ant-tabs-ink-bar {
+  height: 4px!important;
+}
+
+.not-select {
+  -webkit-user-select: none!important; /* Safari */
+  -ms-user-select: none!important; /* IE 10 and IE 11 */
+  user-select: none!important; /* Standard syntax */
+}
+
+.ant-input-affix-wrapper-focused,
+.ant-input-affix-wrapper:hover,
+.ant-picker:focus-within,
+.ant-picker:hover,
+.ant-input-number:focus-within,
+.ant-input-number:hover,
+.ant-input:focus-within,
+.ant-input:hover,
+.ant-upload:hover,
+.ant-select-selector:hover,
+.ant-select-selector:focus-within{
+    border-color: #f66c26!important;
+    outline: 0!important;
+    -webkit-box-shadow: 0 0 0 2px #E6F4FF!important;
+    box-shadow: 0 0 0 2px #E6F4FF!important;
+}
+
+.ant-menu-submenu-selected .ant-menu-submenu-title {
+  color:#f66c26!important;
+  background-color: #f0f7ff!important;
+}
+
+.print {
+  padding-top: 40px;
+}
